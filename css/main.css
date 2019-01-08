@@ -7,3 +7,8 @@ html {
 img {
   max-height: 500px;
 }
+
+.btn-ghost {
+  color: #fff;
+  border: 3px solid #97a49b;
+}
