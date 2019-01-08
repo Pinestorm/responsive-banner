@@ -4,11 +4,41 @@ html {
   color: #fff;
 }
 
-img {
-  max-height: 500px;
-}
-
 .btn-ghost {
   color: #fff;
   border: 3px solid #97a49b;
+}
+
+.banner-content {
+  background-color: #495562;
+  color: #efefef;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .unit:last-child {
+    text-align: right;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .banner {
+    max-height: 500px;
+    overflow: hidden;
+  }
+
+  .banner-content {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+    background-image: linear-gradient(to bottom, rgba(73, 85, 98, 0), rgba(73, 85, 98, .9));
+  }
+
+  .btn-ghost {
+    border-color: #fff;
+  }
+
 }
